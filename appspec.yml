@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /index.html
-    destination: /var/www/html/
+    destination: /var/www/aws_codedeploy_using_github/
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
